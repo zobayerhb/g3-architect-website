@@ -15,6 +15,10 @@
 section {
   margin-top: 80px;
 }
+img {
+  width: 100%;
+  height: 100%;
+}
 .dark-01 {
   color: #131313;
 }
@@ -55,6 +59,7 @@ section {
 }
 .section-para {
   font-size: 1rem;
+  line-height: 26px;
 }
 /* header styles */
 
@@ -97,7 +102,6 @@ section {
 .banner-img {
   width: 100%;
 }
-
 /* Our feature start */
 .our-feature {
   align-items: center;
@@ -107,7 +111,6 @@ section {
   max-width: 537px;
 }
 .our-feature-content p {
-  line-height: 26px;
   margin: 20px 0;
 }
 .our-feature-img {
@@ -121,12 +124,56 @@ section {
 #feature {
   color: #ff900e;
 }
+
+/* feature wil love and enjoy start here */
+.feature-love-enjoy {
+  gap: 150px;
+  justify-content: space-between;
+}
+.feature-love-enjoy-content {
+  max-width: 586px;
+}
+.feature-love-enjoy-content .section-title {
+  max-width: 468px;
+}
+.feature-love-enjoy-content > p {
+  margin: 22px 0;
+}
+.feature-experience {
+  max-width: 708px;
+}
+.feature-learn-box {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 20px;
+}
+.feature-box-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.experience-time.btn-primary {
+  text-align: center;
+  display: inline-block;
+  padding: 42px 22px;
+  margin: -124px -92px;
+  cursor: text;
+}
+.experience-time.btn-primary h3 {
+  font-size: 65px;
+}
+.experience-time.btn-primary h5 {
+  font-weight: 500;
+  font-size: 25px;
+}
 /* Small devices styles */
 @media screen and (max-width: 576px) {
   /* navbar start here */
   .navbar,
   .nav-links,
-  .our-feature {
+  .our-feature,
+  .feature-love-enjoy {
     flex-direction: column;
   }
   .nav-links {
@@ -143,7 +190,6 @@ section {
 }
 
 /* Medium screen  */
-
 @media screen and (min-width: 576.98px) and (max-width: 991.98px) {
   /* our feature start */
   .our-feature {
